@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf7c4999-00bc-47ea-910a-5fc48d0bde5f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZsgdZqCSw0YDrko1k9G3jvrRfD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NextDayCalculatorTest">
+    <configuration name="NextDayCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APJ-BaiTap-TinhNgayTiepTheo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextDayCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDayCalculatorTest.showNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APJ-BaiTap-TinhNgayTiepTheo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextDayCalculatorTest" />
+      <option name="METHOD_NAME" value="showNext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDayCalculatorTest.showNext112018" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APJ-BaiTap-TinhNgayTiepTheo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextDayCalculatorTest" />
+      <option name="METHOD_NAME" value="showNext112018" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDayCalculatorTest.showNext3062020" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APJ-BaiTap-TinhNgayTiepTheo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextDayCalculatorTest" />
+      <option name="METHOD_NAME" value="showNext3062020" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDayCalculatorTest.showNext3112018" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APJ-BaiTap-TinhNgayTiepTheo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextDayCalculatorTest" />
+      <option name="METHOD_NAME" value="showNext3112018" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NextDayCalculatorTest" />
+        <item itemvalue="JUnit.NextDayCalculatorTest.showNext3112018" />
+        <item itemvalue="JUnit.NextDayCalculatorTest.showNext112018" />
+        <item itemvalue="JUnit.NextDayCalculatorTest.showNext" />
+        <item itemvalue="JUnit.NextDayCalculatorTest.showNext3062020" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf7c4999-00bc-47ea-910a-5fc48d0bde5f" name="Default Changelist" comment="" />
+      <created>1585633303409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585633303409</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585637149990">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585637149990" />
+    <state x="2660" y="280" key="FileChooserDialogImpl" timestamp="1585642910082">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585642910082" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585652966380">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652966380" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1585652966380">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652966380" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1585652966379">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652966379" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1585652966380">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652966380" />
+    <state x="2695" y="459" key="ReplaceDuplicatesPrompt" timestamp="1585652255005">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2695" y="459" key="ReplaceDuplicatesPrompt/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652255005" />
+    <state x="2585" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585633434930">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2585" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585633434930" />
+    <state x="2651" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585633439906">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2651" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585633439906" />
+    <state x="2935" y="272" width="540" height="496" key="extract.method.dialog" timestamp="1585652242863">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2935" y="272" width="540" height="496" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1585652242863" />
+  </component>
+</project>
