@@ -2,6 +2,14 @@ public class NextDayCalculator {
 
     public static final int[] MONTHS_HAVE_31_DAY = new int[]{1, 3, 5, 7, 8, 10};
     public static final int[] MONTHS_HAVE_30_DAY = new int[]{4, 6, 9, 11};
+    public static final int DAYS_IN_FEB_NON_LEAP_YEAR = 28;
+    public static final int DAYS_IN_FEB_LEAP_YEAR = 29;
+    public static final int DAY_IN_NORMAL_MONTH = 30;
+    public static final int DAYS_IN_ADDITION_MONTH = 31;
+    public static final int FEBRUARY = 2;
+    public static final int DECEMBER = 12;
+    public static final int DD_MM_YYYY = 3;
+    public static final int INCREASE_UNIT = 1;
 
     public static boolean checkLeapYear(int year) {
         boolean devideBy4 = year % 4 == 0;
@@ -23,17 +31,17 @@ public class NextDayCalculator {
     }
 
     public static int daysInMonth(int inputMonth) {
-        for (int m : MONTHS_HAVE_31_DAY) {
-            if (m == inputMonth) {
-                return 31;
+        for (int month : MONTHS_HAVE_31_DAY) {
+            if (month == inputMonth) {
+                return DAYS_IN_ADDITION_MONTH;
             }
         }
-        for (int m : MONTHS_HAVE_30_DAY) {
-            if (m == inputMonth) {
-                return 30;
+        for (int month : MONTHS_HAVE_30_DAY) {
+            if (month == inputMonth) {
+                return DAY_IN_NORMAL_MONTH;
             }
         }
-        return 1;
+        return DAYS_IN_FEB_NON_LEAP_YEAR;
     }
     private static void increaseDay(int month, int year, int[] result, int i) {
         result[0] = i;
@@ -54,21 +62,20 @@ public class NextDayCalculator {
     }
 
     public static int[] showNextDay(int day, int month, int year) {
-        int[] result = new int[3];
-        if (day == 31 && daysInMonth(month) == 31) {
-            increaseMonth(year, result, 1, month + 1);
-        } else if (day == 30 && NextDayCalculator.daysInMonth(month) == 30) {
-            increaseMonth(year, result, 1, month + 1);
-        } else if (day == 28 && month == 2 && checkLeapYear(year) == false) {
-            increaseMonth(year, result, 1, month + 1);
-        } else if (day == 29 && month == 2 && checkLeapYear(year) == true) {
-            increaseMonth(year, result, 1, month + 1);
-        } else if (day == 31 && month == 12) {
-            increaseYear(result, 1, 1, year + 1);
+        int[] result = new int[DD_MM_YYYY];
+        if (day == DAYS_IN_ADDITION_MONTH && daysInMonth(month) == DAYS_IN_ADDITION_MONTH) {
+            increaseMonth(year, result, INCREASE_UNIT, month + INCREASE_UNIT);
+        } else if (day == DAY_IN_NORMAL_MONTH && NextDayCalculator.daysInMonth(month) == DAY_IN_NORMAL_MONTH) {
+            increaseMonth(year, result, INCREASE_UNIT, month + INCREASE_UNIT);
+        } else if (day == DAYS_IN_FEB_NON_LEAP_YEAR && month == FEBRUARY && checkLeapYear(year) == false) {
+            increaseMonth(year, result, INCREASE_UNIT, month + INCREASE_UNIT);
+        } else if (day == DAYS_IN_FEB_LEAP_YEAR && month == FEBRUARY && checkLeapYear(year) == true) {
+            increaseMonth(year, result, INCREASE_UNIT, month + INCREASE_UNIT);
+        } else if (day == DAYS_IN_ADDITION_MONTH && month == DECEMBER) {
+            increaseYear(result, INCREASE_UNIT, INCREASE_UNIT, year + INCREASE_UNIT);
         } else {
-            increaseDay(month, year, result, day + 1);
+            increaseDay(month, year, result, day + INCREASE_UNIT);
         }
-
         return result;
     }
 }
